@@ -17,4 +17,9 @@ Transfomer model: xlm-roberta-large
 
 Based on submission: XLM-RoBERTa (large)
 
-The only change is a data oversampling for the CBD task. Every positive example is duplicated 4 times.
+The only change is for the CBD task:
+* every positive example is duplicated 4 times
+* num train epochs: 1
+* weight decay: 0.01
+* max grad norm: 5.0
+* learning rate: 1e-5
