@@ -3,7 +3,8 @@ Details of KLEJ submissions: https://klejbenchmark.com/leaderboard/
 
 ## XLM-RoBERTa (large)
 
-Transfomer model: xlm-roberta-large
+Library: transformers
+Model: xlm-roberta-large
 
 * effective batch size: 32
 * learning rate: 2e-5
@@ -23,3 +24,10 @@ The only change is for the CBD task:
 * weight decay: 0.01
 * max grad norm: 5.0
 * learning rate: 1e-5
+
+## XLM-RoBERTa (large) - FT3
+
+Library: fairseq
+Model: xlm-roberta-large
+
+Models were trained using original scripts from [Polish RoBERTa](https://github.com/sdadas/polish-roberta).
