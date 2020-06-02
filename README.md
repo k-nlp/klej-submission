@@ -48,6 +48,23 @@ Models were trained using original scripts from [Polish RoBERTa](https://github.
 | 4 | 94,8 | 94,3 | 94,8 | 67,5 | 92,7 | 80,6 | 75,3 | 98,3 | 88,5 | 87,4 |
 | 5 | 94,4 | 94,0 | 94,8 | 68,5 | 92,5 | 81,2 | 77,1 | 98,6 | 88,5 | 87,7 |
 
+## XLMR+NKJP
+
+XLM-RoBERTa (large) model has been further trained on NCP (National Corpus of Polish).
+
+Models were fine-tuned using original scripts from [Polish RoBERTa](https://github.com/sdadas/polish-roberta).
+
+
+| Run     | NKJP-NER | CDSC-E | CDSC-R | CBD   | PolEmo2.0-IN | PolEmo2.0-OUT | DYK   | PSC   | AR    | Avg     |
+|---------|----------|--------|--------|-------|--------------|---------------|-------|-------|-------|---------|
+ | 1 | 94,2 | 94,2 | 94,5 | 72,4 | 93,1 | 77,9 | 77,5 | 98,6 | 88,2 | 87,8 | 
+ | 2 | 94,9 | 94,5 | 94,6 | 68,2 | 92,8 | 82 | 74,6 | 99,1 | 88,5 | 87,7 | 
+ | 3 | 95,1 | 94,5 | 94,7 | 67,8 | 91,8 | 81,8 | 75 | 97,9 | 88,2 | 87,4 | 
+ | 4 | 94,7 | 93,5 | 94,8 | 69,2 | 92,2 | 82,8 | 73,6 | 98 | 88,7 | 87,5 | 
+ | 5 | 95,2 | 94,4 | 94,7 | 70,3 | 92,7 | 83,8 | 76,6 | 98,9 | 88,8 | 88,4 | 
+ | Avg  | 94,8 | 94,2 | 94,7 | 69,6 | 92,5 | 81,7 | 75,5 | 98,5 | 88,5 | 87,8 | 
+
+
 ### Contact
 
 LinkedIn: https://www.linkedin.com/in/wrobelkrzysztof/
